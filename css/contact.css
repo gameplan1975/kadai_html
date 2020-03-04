@@ -1,0 +1,28 @@
+.form{
+    text-align: center;
+}
+
+.contact tr{
+    height: 5rem;
+  }
+.contact th{
+    width: 150px;
+    height: 7rem;
+    text-align: right;
+  }
+.contact td{
+    text-align: left;
+}
+.tekitou{
+    width: 480px;
+}
+.button{
+    width:100px;
+    height: 40px;
+    margin: 20px;
+    background-color: lightsteelblue;
+}
+/* マウスオーバーでが出る*/
+.button:hover{
+    opacity: 0.5;
+  }

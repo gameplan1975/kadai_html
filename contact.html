@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+
+    <title>株式会社DIVE</title>
+  </head>
+
+  <body>
+    <div class="container">
+  <!-- ここからヘッダー　-->
+  <header class="header clearfix">
+    <a href="index.html" >
+    <img src="./images/logo.png" class="logo_image"></a>
+    <nav>
+      <ul class="top_menu clearfix">
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="business.html">事業内容</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>　
+<!-- ヘッダー下のトップ画像　-->
+<img src="./images/contact.png" class= "image_area">
+
+  <!-- ここからサイドバー　-->
+<div class= "wrapper clearfix">
+  <aside class="side_menu">
+    <nav>
+    <ul>
+      <li><a href="business.html">事業内容</a></li>
+      <li><a href="company.html">会社概要</a></li>
+      <li  class= "point"><a href="contact.html">お問い合わせ</a></li>
+    </ul>
+    </nav>
+  </aside>
+
+  <!-- ここからメイン　-->
+  <article class="content">
+    
+
+          <!-- フォーム作って、テーブルで区分け　-->
+        <form action="#">
+        <table cellspacing ="10" class="contact" >
+        <tr>
+          <th>お名前</th>
+          <td><input type="text" name=inmputname" class="tekitou"></td>
+        </tr>
+        <tr>
+          <th>メールアドレス</th>
+          <td><input type="text" name=inmputmail" class="tekitou" ></td>
+        </tr>
+        <tr>
+          <th>性別</th>
+          <td>
+            <p>男<input type="radio" name = "sex" value = "male">
+            女<input type="radio" name = "sex" value = "female" checked ></p>
+        </td>
+        </tr>
+        <tr>
+          <th>お問い合わせ内容</th>
+          <td>
+            <input type="text" name=inmputmessage" class="tekitou">
+          </td>
+        </tr>
+          </table>
+          <input type="submit"  name = ”送信" class= "button">
+        </form>
+
+  </article>
+  </div>
+
+  <!-- ここからフッター　-->
+  <footer class="footer">
+      <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+  </footer>
+  
+  </div>
+  </body>
+</html>
